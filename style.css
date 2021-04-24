@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(170, 147, 192);
+}
+
+.card-container{
+    width: 60%;
+    margin: auto;
+}
+
+header{
+    text-align: center;
+    /* border: 1px solid black; */
+    padding: 10px 20px;
+    background-color: rgb(36, 35, 35);
+    color: white;
+}
+
+header img{
+    height: 100px;
+}
+
+header h2{
+    font-size: 2.3rem;
+    padding-bottom:10px;
+}
+
+header p{
+    font-size: 2rem;
+    padding-bottom:10px;
+
+}
+
+header input{
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    outline: none;
+}
+
+
+
+
+ul{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    padding: 10px 20px;
+    
+}
+
+
+
+.user-list li{
+    border: 1px solid grey;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    border-radius: 10px;
+    
+}
+
+.user-list li:hover{
+    background-color: rgb(124, 124, 177);
+    color: white;
+    transition: 200ms linear; 
+
+
+}
+
+.userInfo{
+    padding: 10px 10px;
+}
+
+.userInfo h3{
+    font-size: 3rem;
+    padding-bottom: 10px;
+}
+.userInfo p{
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+}
+
+.user-list li.hide {
+    display: none;
+  }
+
+
+
+@media screen and (max-width : 640px) {
+    .card-container{
+        width: auto;
+    }
+
+    header h2{
+        font-size: 2rem;
+    }
+
+    header p{
+        font-size: 1.3rem;
+    }
+
+    header input{
+        font-size: 1.2rem;
+    }
+
+    .userInfo h3{
+        font-size: 1.5rem;
+    }
+
+
+    ul{
+        padding: 0;
+    }
+
+    .userInfo p{
+        font-size: 0.9rem;
+    }
+
+    .user-list li{
+        padding: 10px;
+    }
+
+    li img{
+        height: 100px;
+    }
+
+
+}
+
